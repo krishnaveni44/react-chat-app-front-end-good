@@ -7,6 +7,7 @@ import CreateUser from "./components/CreateUser";
 import OnlineUsers from "./components/OnlineUsers";
 import MessagesControl from "./components/MessagesControl";
 
+// const socket = io(`https://chat-app-114.herokuapp.com/`);
 const socket = io(`https://chat-app-socket-server-good.vercel.app/`);
 
 function App() {
