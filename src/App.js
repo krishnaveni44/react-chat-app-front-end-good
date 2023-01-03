@@ -1,13 +1,13 @@
 import "./App.css";
 import { io } from "socket.io-client";
-import logo from "./assets/chat.png";
+// import logo from "./assets/chat.png";
 import { useEffect, useRef, useState } from "react";
 
 import CreateUser from "./components/CreateUser";
 import OnlineUsers from "./components/OnlineUsers";
 import MessagesControl from "./components/MessagesControl";
 
-const socket = io(`https://chat-app-114.herokuapp.com/`);
+const socket = io(`https://chat-app-socket-server-good.vercel.app/`);
 
 function App() {
   const [step, setStep] = useState(0);
