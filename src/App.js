@@ -7,8 +7,10 @@ import CreateUser from "./components/CreateUser";
 import OnlineUsers from "./components/OnlineUsers";
 import MessagesControl from "./components/MessagesControl";
 
-// const socket = io(`https://chat-app-114.herokuapp.com/`);
-const socket = io(`https://chat-app-socket-server-good.vercel.app/`);
+ // const socket = io(`http://localhost:7000/`);
+ const socket = io(`https://chat-app-backend-h85g.onrender.com/`);
+ 
+// const socket = io(`https://chat-app-socket-server-good.vercel.app/`);
 
 function App() {
   const [step, setStep] = useState(0);
